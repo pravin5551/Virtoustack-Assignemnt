@@ -11,6 +11,7 @@ import kotlinx.android.synthetic.main.item_layout.view.*
 class WordsViewHolder(private val view:View):RecyclerView.ViewHolder(view) {
 
     var wordsTV: TextView? = null
+
     fun setData(wordsData: ListData_Model){
         view.apply {
             wordsTV.text = wordsData.name.toString()
