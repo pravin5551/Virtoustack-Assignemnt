@@ -13,6 +13,7 @@ class WordsAdapter(private var wordList:List<ListData_Model>):
 
     RecyclerView.Adapter<WordsViewHolder>() {
 
+
     private var selectedItemPosition: Int = 0
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): WordsViewHolder {
