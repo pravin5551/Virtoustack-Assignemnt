@@ -18,6 +18,7 @@ class MainActivity : AppCompatActivity() {
     private  var color:Long =0
 
 
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
@@ -35,19 +36,19 @@ class MainActivity : AppCompatActivity() {
 
 
         for (i in 0..99) {
-            (wordList as ArrayList<ListData_Model>).add(ListData_Model("Alpha", color))
-            (wordList as ArrayList<ListData_Model>).add(ListData_Model("Beta", color))
-            (wordList as ArrayList<ListData_Model>).add(ListData_Model("Cat",color))
-            (wordList as ArrayList<ListData_Model>).add(ListData_Model("Fantom",color))
-            (wordList as ArrayList<ListData_Model>).add(ListData_Model("Fantom",color))
+            (wordList as ArrayList<ListData_Model>).add(ListData_Model("Alpha"))
+            (wordList as ArrayList<ListData_Model>).add(ListData_Model("Beta"))
+            (wordList as ArrayList<ListData_Model>).add(ListData_Model("Cat"))
+            (wordList as ArrayList<ListData_Model>).add(ListData_Model("Fantom"))
+            (wordList as ArrayList<ListData_Model>).add(ListData_Model("Fantom"))
 
-            (wordList as ArrayList<ListData_Model>).add(ListData_Model("Saitama",color))
-            (wordList as ArrayList<ListData_Model>).add(ListData_Model("Goal",color))
-            (wordList as ArrayList<ListData_Model>).add(ListData_Model("Helina",color))
-            (wordList as ArrayList<ListData_Model>).add(ListData_Model("Machine",color))
-            (wordList as ArrayList<ListData_Model>).add(ListData_Model("Note",color))
-            (wordList as ArrayList<ListData_Model>).add(ListData_Model("Beta",color))
-            (wordList as ArrayList<ListData_Model>).add(ListData_Model("Saitama",color))
+            (wordList as ArrayList<ListData_Model>).add(ListData_Model("Saitama"))
+            (wordList as ArrayList<ListData_Model>).add(ListData_Model("Goal"))
+            (wordList as ArrayList<ListData_Model>).add(ListData_Model("Helina"))
+            (wordList as ArrayList<ListData_Model>).add(ListData_Model("Machine"))
+            (wordList as ArrayList<ListData_Model>).add(ListData_Model("Note"))
+            (wordList as ArrayList<ListData_Model>).add(ListData_Model("Beta"))
+            (wordList as ArrayList<ListData_Model>).add(ListData_Model("Saitama"))
 
         }
     }
